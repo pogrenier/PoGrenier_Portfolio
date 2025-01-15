@@ -6,8 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Destinataire de l'e-mail
-    $to = "votre-adresse-email@example.com"; // Remplacez par votre adresse e-mail
-    $subject = "Nouveau message depuis le formulaire de contact";
+    $to = "philippe-olivier.grenier@usherbrooke.ca";
+    $subject = "Nouveau message depuis le portfolio";
 
     // Construire le contenu de l'e-mail
     $email_content = "Nom: $name\n";
